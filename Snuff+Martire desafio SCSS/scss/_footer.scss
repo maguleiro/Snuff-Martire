@@ -1,0 +1,19 @@
+#footer{
+	background-color: rgb(62, 55, 55);
+
+	.footer__legend{
+				display: block;
+				font-size: $textSm;
+				font-family: $fontMain;
+				color: white;
+				line-height: 150px;
+				height: 150px;
+				align-content: center;
+
+				a{
+					text-decoration: none;
+					color: white;
+				}
+
+	}
+}

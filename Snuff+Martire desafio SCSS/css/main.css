@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Work+Sans:wght@300&display=swap");
+.cont-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #f7f0e8; }
+  .cont-nav div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: transparent;
+    height: auto;
+    width: auto; }
+    .cont-nav div li {
+      list-style: none;
+      font-size: 2rem;
+      display: inline-block;
+      margin: 5px; }
+      .cont-nav div li a {
+        font-size: 1em;
+        text-decoration: none;
+        color: #3d1e00;
+        font-family: "Work Sans", sans-serif; }
+        .cont-nav div li a :hover {
+          color: black;
+          font-weight: 600; }
+
+.subCont-nav-img {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  justify-content: center;
+  height: auto;
+  width: 400px;
+  margin-left: 50px; }
+
+#dashboard {
+  background-color: #f7f0e8; }
+  #dashboard h3 {
+    font-family: "Merriweather", serif;
+    font-size: 2em;
+    color: #665858;
+    padding: 0 20px; }
+  #dashboard img {
+    margin: 30px auto;
+    width: 100%; }
+  #dashboard article p {
+    font-size: 4em;
+    text-align: center;
+    margin: 30px 30px 60px 30px; }
+  #dashboard .container-resenias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px; }
+  #dashboard .box-resenias {
+    margin: 5px;
+    width: 300px;
+    height: 120px;
+    color: #414141;
+    font-size: 1em;
+    font-family: "Merriweather", serif;
+    text-align: center; }
+
+#footer {
+  background-color: #3e3737; }
+  #footer .footer__legend {
+    display: block;
+    font-size: 1em;
+    font-family: "Merriweather", serif;
+    color: white;
+    line-height: 150px;
+    height: 150px;
+    align-content: center; }
+    #footer .footer__legend a {
+      text-decoration: none;
+      color: white; }

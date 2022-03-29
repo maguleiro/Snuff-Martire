@@ -1,0 +1,49 @@
+.cont-nav{
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background-color:$mainColor;
+
+		div{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			background-color: transparent;
+			height: auto;
+			width:auto;
+
+			li{
+				list-style: none;
+				font-size: 2rem;
+				display: inline-block;
+				margin: 5px;
+
+				a{
+					font-size: $textSm;
+					text-decoration: none;
+					color: $secondaryColor;
+					font-family: $fontSecondary;
+					
+					:hover{
+						color: black;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+}
+
+
+.subCont-nav-img{
+	display: flex;
+	flex-direction: row;
+	background-color: transparent;
+	justify-content: center;
+	height: auto;
+	width:400px;
+	margin-left: 50px;
+}
+
+
